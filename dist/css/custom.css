@@ -9031,6 +9031,10 @@ fieldset:disabled .btn {
     color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-green {
+    color: #20c997;
+}
+
 .text-secondary {
     --bs-text-opacity: 1;
     color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
@@ -9203,8 +9207,8 @@ fieldset:disabled .btn {
 }
 
 .bg-index {
-    background-image: url('https://images.unsplash.com/photo-1542219292358-30f58704407c?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-position: center;
+    background-image: url('https://wise.wika.co.id/storage/news/istana_neg_577_0507132732.jpg');
+    background-position: bottom;
     /* Focus on the top of the image */
     background-repeat: no-repeat;
     height: 100vh;
@@ -9320,6 +9324,11 @@ fieldset:disabled .btn {
     background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil8_OHpD0CDiCtASOg9ZA6NvznBdLvixrpFCwdVzfCY3vd-S3XcpghogzEF8psDAPtSFSEiROh5ZFAuFTlNqGXiOpNQyshC0-W1UKJznUe7py7mzpY0dIdknWApcC-8OvFDalws_FoH4Kfagjb5ZFQkGjvlWTsCrIsLoL5vda16Y9uPF3HlBtrNQ/w301-h320/Logo%20Provinsi%20DKI%20Jakarta.png');
 }
 
+#card-of-city {
+    margin: 0;
+    padding: 0;
+    margin-top: 2em;
+}
 
 .card-container {
     display: flex;
@@ -9327,8 +9336,10 @@ fieldset:disabled .btn {
     /* Centers cards horizontally */
     gap: 10%;
     /* Space between cards */
-    margin-top: 0px;
+    margin-top: 0;
+    padding-top: 0;
     /* Optional: adds space above the cards */
+
 }
 
 .city-card {
@@ -9357,6 +9368,77 @@ fieldset:disabled .btn {
     opacity: 0;
     transition: 0.3s ease;
 }
+
+.gub-jakarta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gubernur_Anies.jpg/800px-Gubernur_Anies.jpg');
+}
+
+.wagub-jakarta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Ahmad_Riza_Patria_2012.jpg/200px-Ahmad_Riza_Patria_2012.jpg');
+}
+
+.monas-jakarta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('data:image/jpeg;base64,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');
+}
+
+.kota-jakarta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://raun2nomaden.wordpress.com/wp-content/uploads/2023/02/img_9797-1.jpg?w=1400');
+}
+
+.taman-jakarta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://www.kbknews.id/wp-content/uploads/2023/01/g8.jpeg.jpg');
+}
+
 
 .card-button {
     transform: translate(-50%, 125%);
@@ -9396,6 +9478,20 @@ fieldset:disabled .btn {
     opacity: 10%;
 }
 
+.card:hover .monas-jakarta {
+    opacity: 10%;
+
+}
+
+.card:hover .kota-jakarta {
+    opacity: 10%;
+}
+
+
+.card:hover .taman-jakarta {
+    opacity: 10%;
+}
+
 .card:hover .card-details {
     opacity: 1;
     /* Menampilkan detail saat hover */
@@ -9408,6 +9504,125 @@ fieldset:disabled .btn {
 }
 
 /* uiverse end */
+.four h1 {
+    padding-top: 1.5em;
+    text-align: center;
+    padding-bottom: 0.7em;
+    font-weight: bold;
+    font-family: 'Lucida Grande';
+    padding-bottom: 0em;
+}
+
+h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+h1 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+}
+
+h1 em {
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+.four h1:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 1px;
+    content: "";
+    left: 50%;
+    margin-left: -30px;
+    background-color: #777;
+}
+
+.four h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    background-color: #777;
+    margin: 0.7em auto 0;
+    /* Menambahkan margin top dan auto untuk centering */
+}
+
+/* member section */
+.flip-card {
+    background-color: transparent;
+    width: 190px;
+    height: 254px;
+    perspective: 1000px;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    box-shadow: 0 8px 14px 0 var(--bs-black);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.flip-card-front {
+    background: linear-gradient(120deg, white 60%, #FFD5D5 88%,
+            rgb(255, 211, 195) 40%, #FF5858 48%);
+    color: #1a1e21;
+}
+
+.flip-card-back {
+    background: linear-gradient(120deg, white 30%, white 88%,
+            white 40%, white 78%);
+    color: #1a1e21;
+    transform: rotateY(180deg);
+}
+
+/* end of member card */
+
+#lower-card {
+    margin: 0;
+    padding: 0;
+}
 
 .bg-secondary {
     --bs-bg-opacity: 1;
