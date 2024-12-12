@@ -9137,6 +9137,7 @@ fieldset:disabled .btn {
     cursor: pointer;
 }
 
+
 /* button styling */
 .button {
     --border-right: 6px;
@@ -9324,6 +9325,77 @@ fieldset:disabled .btn {
     background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil8_OHpD0CDiCtASOg9ZA6NvznBdLvixrpFCwdVzfCY3vd-S3XcpghogzEF8psDAPtSFSEiROh5ZFAuFTlNqGXiOpNQyshC0-W1UKJznUe7py7mzpY0dIdknWApcC-8OvFDalws_FoH4Kfagjb5ZFQkGjvlWTsCrIsLoL5vda16Y9uPF3HlBtrNQ/w301-h320/Logo%20Provinsi%20DKI%20Jakarta.png');
 }
 
+.img-card-bogor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCmi-CWkIUiQ_6654xYlZxXU-ReuLp0-6CVgbEFNuYJBgkS7cwb4m8o4M5etaS6HBjdUrbhEfUdwlIspY8sbZaHrT1CEZhdkqPJ0MHphngSIIqy8ZunOsWsJY19Ll26Y_zLGZq_tdo0cDd/s320/Kota+Bogor.png');
+}
+
+.img-card-depok {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/bb/Lambang_Kota_Depok.png');
+}
+
+.img-card-tangerang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Lambang_Kota_Tangerang.png/542px-Lambang_Kota_Tangerang.png');
+}
+
+.img-card-bekasi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d7/Coat_of_arms_of_Bekasi.png');
+}
+
+.img-card-karawang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/LAMBANG_KABUPATEN_KARAWANG.svg/1200px-LAMBANG_KABUPATEN_KARAWANG.svg.png');
+}
+
+
 #card-of-city {
     margin: 0;
     padding: 0;
@@ -9449,11 +9521,15 @@ fieldset:disabled .btn {
     color: #fff;
     font-size: 1rem;
     padding: .5rem 1rem;
+    text-align: center;
     position: absolute;
     left: 50%;
     bottom: 0;
     opacity: 0;
     transition: 0.3s ease-out;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .text-body {
@@ -9475,6 +9551,26 @@ fieldset:disabled .btn {
 }
 
 .card:hover .img-card-jakarta {
+    opacity: 10%;
+}
+
+.card:hover .img-card-bogor {
+    opacity: 10%;
+}
+
+.card:hover .img-card-depok {
+    opacity: 10%;
+}
+
+.card:hover .img-card-bekasi {
+    opacity: 10%;
+}
+
+.card:hover .img-card-tangerang {
+    opacity: 10%;
+}
+
+.card:hover .img-card-karawang {
     opacity: 10%;
 }
 
