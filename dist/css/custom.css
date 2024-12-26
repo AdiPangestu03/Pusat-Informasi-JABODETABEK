@@ -9249,7 +9249,7 @@ fieldset:disabled .btn {
 }
 
 .bg-depok {
-    background-image: url('https://gontornews.com/wp-content/uploads/2019/02/kampus-ui.jpg');
+    background-image: url('https://cloud.jpnn.com/photo/jatim/news/normal/2022/07/17/potret-kota-depok-foto-lutviatul-fauziahjpnncom-9djmt-u02l.jpg');
     background-position: top center;
     /* Focus on the top of the image */
     background-repeat: no-repeat;
@@ -9261,7 +9261,7 @@ fieldset:disabled .btn {
 
 .bg-tangerang {
     padding-top: 56px;
-    background-image: url('https://www.tangerangnews.com/assets/uploaded/photo/2016/12/27/5f48bbfe8316a3d01a0354e355cae639.jpg');
+    background-image: url('https://www.tangerangkota.go.id/files/berita/39503mengenal-salah-satu-ikon-kota-tangerang-jam-gede-jasa-39503.jpeg');
     background-position: top center;
     /* Focus on the top of the image */
     background-repeat: no-repeat;
@@ -9452,7 +9452,35 @@ fieldset:disabled .btn {
     background-size: contain;
     opacity: 1;
     transition: 0.3s ease;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gubernur_Anies.jpg/800px-Gubernur_Anies.jpg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8TD8upFEhQAJau3UFjgFFN-hoBl-Yccdl8w&s');
+}
+
+.gub-bekasi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/52/Raden_Gani_Muhamad%2C_Pj._Wali_Kota_Bekasi_%282023%29.png');
+}
+
+.wagub-bekasi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Tri_Adhianto_Tjahyono%2C_Wali_Kota_Bekasi_%282023%29.png/390px-Tri_Adhianto_Tjahyono%2C_Wali_Kota_Bekasi_%282023%29.png');
 }
 
 .wagub-jakarta {
@@ -9466,8 +9494,136 @@ fieldset:disabled .btn {
     background-size: contain;
     opacity: 1;
     transition: 0.3s ease;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Ahmad_Riza_Patria_2012.jpg/200px-Ahmad_Riza_Patria_2012.jpg');
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c2/Wakil_Gubernur_DKI_Jakarta_Ahmad_Riza_Patria.jpg');
 }
+
+.gub-karawang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Aep_Syaepuloh_Bupati_Karawang.jpg/330px-Aep_Syaepuloh_Bupati_Karawang.jpg');
+}
+
+.wagub-karawang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Cellica_Nurrachadiana_Bupati_Karawang.png/330px-Cellica_Nurrachadiana_Bupati_Karawang.png');
+}
+
+
+.gub-bogor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://cdn2.picryl.com/photo/2014/07/01/bima-arya-official-c68763-small.png');
+}
+
+.wagub-bogor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Wakil_Wali_Kota_Bogor_Dedie_Abdu_Rachim.jpg/315px-Wakil_Wali_Kota_Bogor_Dedie_Abdu_Rachim.jpg');
+}
+
+.gub-tangerang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://setda.acehjayakab.go.id/media/2022.08/pj_bupati11.jpg');
+}
+
+.wagub-tangerang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Wakil_Wali_Kota_Tangerang_Sachrudin.jpg/375px-Wakil_Wali_Kota_Tangerang_Sachrudin.jpg');
+}
+
+.puncak-bogor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://lovelybogor.com/wp-content/uploads/2017/12/Pemandangan-Indah-di-Puncak-Bogor.jpg');
+}
+
+.kebon-bogor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.JFMY8gryJF3QpZE8weLZKQHaGq&pid=Api&P=0&h=220');
+}
+
+.safari-bogor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2024/08/14/594c6072-d53a-4eef-9285-6d69ef1f725a-1723625448894-4199040f8fc0597a41415949abcfef1b.jpg');
+}
+
 
 .monas-jakarta {
     position: absolute;
@@ -9511,6 +9667,201 @@ fieldset:disabled .btn {
     background-image: url('https://www.kbknews.id/wp-content/uploads/2023/01/g8.jpeg.jpg');
 }
 
+.gub-depok {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/34/Mayor_of_Depok_Mohammad_Idris.jpg');
+}
+
+.wagub-depok {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Vice_Mayor_of_Depok_Imam_Budi_Hartono%2C_2021.png/330px-Vice_Mayor_of_Depok_Imam_Budi_Hartono%2C_2021.png');
+}
+
+.ui-depok {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://cloud.jpnn.com/photo/jatim/news/normal/2022/09/01/potret-universitas-indonesia-foto-lutviatul-fauziahjpnncom-b-zs5u.jpg');
+}
+
+.trans-depok {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://mmc.tirto.id/image/2019/10/25/logo_transcibubur_ratio-16x9.jpg');
+}
+
+.fantasy-depok {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/260/2023/10/25/Depok-Fantasy-Land-2072726444.png');
+}
+
+.bsd-tangerang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://www.sinarmasland.com/app/uploads/2023/12/Foto-4-Artist-Impression-BSD-City-Park.jpeg');
+}
+
+.ssp-tangerang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/10/6a/f0/scientia-square-park.jpg?w=1200&h=1200&s=1');
+}
+
+.telaga-tangerang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://dwijayakarya.com/wp-content/uploads/2024/08/Situasi-terbaru-Telaga-Biru-Cisoka-di-Kampung-Cigaru-Tangerang.webp');
+}
+
+.smb-bekasi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://cms.malkelapagading.com/images/company/smb-image-1.jpg');
+}
+
+.taman-bekasi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://diskominfo.bekasikota.go.id/backend/images/content/0226910cbb2297bae25f00bd416535e5.jpg');
+}
+
+.gm-bekasi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/6d/0b/07/grand-metropolitan-mall.jpg?w=1200&h=-1&s=1');
+}
+
+.candi-karawang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://disparbud.jabarprov.go.id/wp-content/uploads/2022/01/Candi-Batu-Jiwa-scaled.jpg');
+}
+
+.pantai-karawang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://kcic.co.id/lkapp/wp-content/uploads/2021/07/pantai-samudera-baru-2.jpg');
+}
+
+.water-karawang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    background-image: url('https://galuhmas.co.id/wp-content/uploads/2019/12/WAW-2.jpg');
+}
 
 .card-button {
     transform: translate(-50%, 125%);
@@ -9550,6 +9901,54 @@ fieldset:disabled .btn {
     /* Menghilangkan gambar latar belakang saat hover */
 }
 
+.card:hover .gub-jakarta {
+    opacity: 10%;
+}
+
+.card:hover .wagub-jakarta {
+    opacity: 10%;
+}
+
+.card:hover .gub-depok {
+    opacity: 10%;
+}
+
+.card:hover .wagub-depok {
+    opacity: 10%;
+}
+
+.card:hover .gub-bogor {
+    opacity: 10%;
+}
+
+.card:hover .wagub-bogor {
+    opacity: 10%;
+}
+
+.card:hover .gub-tangerang {
+    opacity: 10%;
+}
+
+.card:hover .wagub-tangerang {
+    opacity: 10%;
+}
+
+.card:hover .gub-karawang {
+    opacity: 10%;
+}
+
+.card:hover .wagub-karawang {
+    opacity: 10%;
+}
+
+.card:hover .gub-bekasi {
+    opacity: 10%;
+}
+
+.card:hover .wagub-bekasi {
+    opacity: 10%;
+}
+
 .card:hover .img-card-jakarta {
     opacity: 10%;
 }
@@ -9585,6 +9984,66 @@ fieldset:disabled .btn {
 
 
 .card:hover .taman-jakarta {
+    opacity: 10%;
+}
+
+.card:hover .puncak-bogor {
+    opacity: 10%;
+}
+
+.card:hover .safari-bogor {
+    opacity: 10%;
+}
+
+.card:hover .kebon-bogor {
+    opacity: 10%;
+}
+
+.card:hover .fantasy-depok {
+    opacity: 10%;
+}
+
+.card:hover .ui-depok {
+    opacity: 10%;
+}
+
+.card:hover .trans-depok {
+    opacity: 10%;
+}
+
+.card:hover .ssp-tangerang {
+    opacity: 10%;
+}
+
+.card:hover .bsd-tangerang {
+    opacity: 10%;
+}
+
+.card:hover .telaga-tangerang {
+    opacity: 10%;
+}
+
+.card:hover .smb-bekasi {
+    opacity: 10%;
+}
+
+.card:hover .taman-bekasi {
+    opacity: 10%;
+}
+
+.card:hover .gm-bekasi {
+    opacity: 10%;
+}
+
+.card:hover .candi-karawang {
+    opacity: 10%;
+}
+
+.card:hover .water-karawang {
+    opacity: 10%;
+}
+
+.card:hover .pantai-karawang {
     opacity: 10%;
 }
 
